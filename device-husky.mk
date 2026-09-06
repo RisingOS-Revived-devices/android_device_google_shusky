@@ -5,6 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Use libc variant by default
+PRODUCT_USE_SCUDO := true
+
 # Kernel
 TARGET_LINUX_KERNEL_VERSION := 6.1
 TARGET_KERNEL_DEVICE := shusky
