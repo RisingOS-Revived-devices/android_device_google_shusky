@@ -24,7 +24,16 @@ PRODUCT_SYSTEM_NAME := generic_system_google
 TARGET_SCREEN_HEIGHT := 2992
 TARGET_SCREEN_WIDTH := 1344
 
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+PRODUCT_NO_CAMERA := true
+
+RISING_MAINTAINER=Jrcable2
+RISING_MAINTAINER := Jrcable2
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Google Tensor 3" \
+    RisingMaintainer="Jrcable2" \
     BuildDesc="husky-user 17 CP2A.260805.005 15828068 release-keys" \
     BuildFingerprint=google/husky/husky:17/CP2A.260805.005/15828068:user/release-keys \
     BuildSystemFingerprint=google/generic_system_google/generic:17/CP2A.260805.005/15828068:user/release-keys \
