@@ -12,6 +12,7 @@ DEVICE_CODENAME := shiba
 DEVICE_PATH := device/google/shusky
 VENDOR_PATH := vendor/google/shiba
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
+$(call inherit-product, vendor/google/faceunlock/config.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_$(DEVICE_CODENAME)

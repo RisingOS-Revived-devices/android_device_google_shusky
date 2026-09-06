@@ -52,6 +52,9 @@ include hardware/google/pixel/powershare/device.mk
 # PixelParts
 -include packages/apps/PixelParts/device.mk
 
+# Ship Google Face Unlock ( GFU )
+TARGET_SUPPORTS_GFU := true
+
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/vendor.prop
