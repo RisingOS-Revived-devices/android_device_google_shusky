@@ -73,3 +73,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Window extensions
 $(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
+
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
