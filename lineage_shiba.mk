@@ -13,6 +13,7 @@ DEVICE_PATH := device/google/shusky
 VENDOR_PATH := vendor/google/shiba
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 $(call inherit-product, vendor/google/faceunlock/config.mk)
+$(call inherit-product, packages/apps/PixelExtraParts/device.mk)
 
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
