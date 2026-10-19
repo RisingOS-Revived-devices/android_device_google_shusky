@@ -6,6 +6,7 @@
 
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_DISABLE_EPPE := true
 
 # Inherit device configuration
 DEVICE_CODENAME := husky
@@ -31,6 +32,9 @@ TARGET_SCREEN_WIDTH := 1344
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
 PRODUCT_NO_CAMERA := true
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 RISING_MAINTAINER=Jrcable2
 RISING_MAINTAINER := Jrcable2
