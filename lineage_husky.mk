@@ -42,10 +42,10 @@ RISING_MAINTAINER := Jrcable2
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingChipset="Google Tensor 3" \
     RisingMaintainer="Jrcable2" \
-    BuildDesc="husky-user 17 CP3A.260905.009 16091614 release-keys" \
-    BuildSystemDesc="generic_system_google-user 17 CP3A.260905.009 16091614 release-keys" \
-    BuildFingerprint=google/husky/husky:17/CP3A.260905.009/16091614:user/release-keys \
-    BuildSystemFingerprint=google/generic_system_google/generic:17/CP3A.260905.009/16091614:user/release-keys \
+    BuildDesc="husky-user 17 CP3A.261005.005 16271449 release-keys" \
+    BuildSystemDesc=generic_system_google-user 17 CP3A.261005.005 16271449 release-keys \
+    BuildFingerprint=google/husky/husky:17/CP3A.261005.005/16271449:user/release-keys \
+    BuildSystemFingerprint=google/generic_system_google/generic:17/CP3A.261005.005/16271449:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
